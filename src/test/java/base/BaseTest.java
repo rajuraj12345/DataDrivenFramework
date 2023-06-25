@@ -49,7 +49,8 @@ public class BaseTest {
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--remote-allow-origins=*");
 			//
-			WebDriverManager.chromedriver().setup();
+			// WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver", "D:\\Chromedriver\\chromedriver.exe");
 			driver = new ChromeDriver(options);
 			
 		}else if(browser.equals("firefox")) {
