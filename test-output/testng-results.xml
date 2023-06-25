@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-24T18:32:50 IST" name="Suite" finished-at="2023-06-24T18:33:09 IST" duration-ms="18653">
+    <groups>
+      <group name="smoke">
+        <method signature="LoginTest.loginTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@7db534f2]" name="loginTest" class="testcases.LoginTest"/>
+        <method signature="HomePageTest.Home(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.HomePageTest@724bade8]" name="Home" class="testcases.HomePageTest"/>
+        <method signature="LoginTest.loginTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@5003041b]" name="loginTest" class="testcases.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-06-24T18:32:50 IST" name="Test" finished-at="2023-06-24T18:32:54 IST" duration-ms="4281">
+      <class name="testcases.LoginTest">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@7db534f2]" started-at="2023-06-24T18:32:50 IST" name="loginTest" data-provider="dp1" finished-at="2023-06-24T18:32:54 IST" duration-ms="4088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@7db534f2]" started-at="2023-06-24T18:32:54 IST" name="tearDown" finished-at="2023-06-24T18:32:54 IST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Test -->
+    <test started-at="2023-06-24T18:32:55 IST" name="Second Test Case" finished-at="2023-06-24T18:33:09 IST" duration-ms="14081">
+      <class name="testcases.HomePageTest">
+        <test-method signature="Home(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.HomePageTest@724bade8]" started-at="2023-06-24T18:32:57 IST" name="Home" data-provider="dp1" finished-at="2023-06-24T18:33:08 IST" duration-ms="11956" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[raju]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[raj]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.HomePageTest@724bade8]" started-at="2023-06-24T18:33:08 IST" name="tearDown" finished-at="2023-06-24T18:33:09 IST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.LoginTest">
+        <test-method signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testcases.LoginTest@5003041b]" started-at="2023-06-24T18:32:55 IST" name="loginTest" data-provider="dp1" finished-at="2023-06-24T18:32:56 IST" duration-ms="1779" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTest@5003041b]" started-at="2023-06-24T18:32:56 IST" name="tearDown" finished-at="2023-06-24T18:32:56 IST" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.LoginTest -->
+    </test> <!-- Second Test Case -->
+  </suite> <!-- Suite -->
+</testng-results>

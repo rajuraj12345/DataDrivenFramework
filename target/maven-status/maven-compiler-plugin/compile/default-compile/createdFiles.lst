@@ -1,0 +1,11 @@
+pages\DemoPractise.class
+pages\LoginPage.class
+pages\CartPage.class
+pages\HomePage.class
+base\BasePage.class
+pages\RequestDemoPage.class
+pages\CheckOutPage.class
+extentlisteners\ExtentListeners.class
+pages\Rough.class
+extentlisteners\ExtentManager.class
+pages\OverviewPage.class
